@@ -1,0 +1,44 @@
+header {
+    margin: 40px 0 0 0;
+    padding: 0 15% 0 15%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 100%;
+    z-index: 200;
+    position: relative;
+    max-width: 1366px;
+
+    @media screen and (min-width: 1366px) {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
+.center {
+    @include center;
+}
+
+.right {
+    @include right;
+}
+
+.left {
+    @include left;
+}

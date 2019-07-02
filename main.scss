@@ -1,0 +1,21 @@
+@import "styles/normalize";
+@import "styles/variables";
+@import "styles/mixins";
+@import "styles/typography";
+@import "styles/layout";
+@import "styles/elements";
+
+
+body{
+    @include font-lt;
+    background-color: $grey;
+    @include dot;
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+*{
+    box-sizing: inherit;
+}

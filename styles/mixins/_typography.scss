@@ -1,0 +1,39 @@
+@mixin font-reg {
+    font-family: $font-family;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@mixin font-lt {
+    font-family: $font-family;
+    font-weight: 300;
+    font-style: normal;
+}
+
+@mixin center {
+    text-align: center;
+}
+
+@mixin right {
+    text-align: right;
+}
+
+@mixin left {
+    text-align: left;
+}
+
+@mixin font-size($size_value: 1, $size_value_lrg: 0) {
+    font-size: $size_value*16*1px;
+    font-size: $size_value*1rem;
+    @if $size_value_lrg != 0 {
+        @media screen and(min-width: 480px) {
+            font-size: $size_value_lrg*16*1px;
+            font-size: $size_value_lrg*1rem;
+        }
+    }
+}
+
+@mixin dot {
+    background-image: url(./img/dot.svg);
+    background-size: 22px;
+}

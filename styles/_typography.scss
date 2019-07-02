@@ -1,0 +1,46 @@
+
+h1{
+    color: $blue;
+    @include font-size(1.875, 2.625);
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    @include font-size(1.5625);
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    @include font-size(1.875);
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    @include font-size(1.125, 1);
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    @include font-reg;
+    padding: 1.5rem;
+    z-index: 200;
+}
+
+.content{
+    @include font-lt;
+    padding: 1rem;
+    z-index: 200;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.5;
+    &__header{
+        color: $blue;
+        @include font-reg;
+        padding: 30px 0 0 0;
+        margin: 0 0 50px 0;
+    }
+}
