@@ -1,25 +1,28 @@
 
 h1{
     color: $blue;
-    @include font-size(1.875, 2.625);
+    @include font-size(2.1875, 2.625);
     padding: 0;
     margin: 0;
 }
 
 h2{
+    color: $dark-grey;
     @include font-size(1.5625);
     padding: 0;
     margin: 0;
 }
 
 h3{
+    color: $blue;
     @include font-size(1.875);
     padding: 0;
     margin: 0;
 }
 
 p{
-    @include font-size(1.125, 1);
+    color: $dark-grey;
+    @include font-size(1);
     padding: 0;
     margin: 0;
 }
@@ -27,7 +30,6 @@ p{
 .header{
     @include font-reg;
     padding: 1.5rem;
-    z-index: 200;
 }
 
 .content{
@@ -37,6 +39,7 @@ p{
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.5;
+    box-sizing: border-box;
     &__header{
         color: $blue;
         @include font-reg;

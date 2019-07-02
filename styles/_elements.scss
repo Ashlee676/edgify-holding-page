@@ -2,12 +2,9 @@
     opacity: 0.2;
     display: inline-block;
     position: absolute;
-    right: -40%;
+    right: -20%;
     top: 40%;
     z-index: 1;
-    transform: rotate(0deg);
-    transition: 0.7s linear;
-    animation: rotate 40s infinite linear;
 
     @media screen and (min-width: 480px) {
         right: 10%;
@@ -23,12 +20,9 @@
     opacity: 0.2;
     display: inline-block;
     position: absolute;
-    left: -65%;
+    left: -50%;
     top: 10%;
     z-index: 1;
-    transform: rotate(0deg);
-    transition: 0.7s linear;
-    animation: rotate 50s infinite linear;
 
     @media screen and (min-width: 480px) {
         left: -5%;
@@ -51,9 +45,6 @@
         width: 100%;
         height: auto;
         margin-bottom: -60%;
-        transform: rotate(0deg);
-        transition: 0.7s linear;
-        animation: rotate 200s infinite linear;
     }
 
     @media screen and (min-width: 1200px) {
@@ -63,19 +54,5 @@
         img {
             margin-bottom: -40%;
         }
-    }
-}
-
-@keyframes rotate {
-    from {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-
-    }
-
-    to {
-        -webkit-transform: rotate(359deg);
-        transform: rotate(359deg);
-
     }
 }

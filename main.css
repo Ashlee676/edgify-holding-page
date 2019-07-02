@@ -343,8 +343,8 @@ template {
 
 h1 {
   color: #6a91f3;
-  font-size: 30px;
-  font-size: 1.875rem;
+  font-size: 35px;
+  font-size: 2.1875rem;
   padding: 0;
   margin: 0;
 }
@@ -357,6 +357,7 @@ h1 {
 }
 
 h2 {
+  color: #464646;
   font-size: 25px;
   font-size: 1.5625rem;
   padding: 0;
@@ -364,6 +365,7 @@ h2 {
 }
 
 h3 {
+  color: #6a91f3;
   font-size: 30px;
   font-size: 1.875rem;
   padding: 0;
@@ -371,17 +373,11 @@ h3 {
 }
 
 p {
-  font-size: 18px;
-  font-size: 1.125rem;
+  color: #464646;
+  font-size: 16px;
+  font-size: 1rem;
   padding: 0;
   margin: 0;
-}
-
-@media screen and (min-width: 480px) {
-  p {
-    font-size: 16px;
-    font-size: 1rem;
-  }
 }
 
 .header {
@@ -389,7 +385,6 @@ p {
   font-weight: 500;
   font-style: normal;
   padding: 1.5rem;
-  z-index: 200;
 }
 
 .content {
@@ -401,6 +396,8 @@ p {
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.5;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .content__header {
@@ -442,7 +439,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   padding: 0;
-  margin: 0;
+  position: relative;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -475,15 +473,9 @@ header {
   opacity: 0.2;
   display: inline-block;
   position: absolute;
-  right: -40%;
+  right: -20%;
   top: 40%;
   z-index: 1;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: 0.7s linear;
-  transition: 0.7s linear;
-  -webkit-animation: rotate 40s infinite linear;
-          animation: rotate 40s infinite linear;
 }
 
 @media screen and (min-width: 480px) {
@@ -503,15 +495,9 @@ header {
   opacity: 0.2;
   display: inline-block;
   position: absolute;
-  left: -65%;
+  left: -50%;
   top: 10%;
   z-index: 1;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: 0.7s linear;
-  transition: 0.7s linear;
-  -webkit-animation: rotate 50s infinite linear;
-          animation: rotate 50s infinite linear;
 }
 
 @media screen and (min-width: 480px) {
@@ -539,12 +525,6 @@ header {
   width: 100%;
   height: auto;
   margin-bottom: -60%;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: 0.7s linear;
-  transition: 0.7s linear;
-  -webkit-animation: rotate 200s infinite linear;
-          animation: rotate 200s infinite linear;
 }
 
 @media screen and (min-width: 1200px) {
@@ -557,33 +537,11 @@ header {
   }
 }
 
-@-webkit-keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-
-@keyframes rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(359deg);
-    transform: rotate(359deg);
-  }
-}
-
 body {
   font-family: museo-sans, sans-serif;
   font-weight: 300;
   font-style: normal;
-  background-color: #fafafa;
+  background-color: #f8f8f8;
   background-image: url(./img/dot.svg);
   background-size: 22px;
   margin: 0;
