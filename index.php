@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.typekit.net/xro3egx.css">
+    <link rel="stylesheet" media="screen" href="<?php echo get_stylesheet_directory_uri() ?>/main.css" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="<?php echo get_stylesheet_directory_uri() ?>/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri() ?>/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="<?php echo get_stylesheet_directory_uri() ?>/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="<?php echo get_stylesheet_directory_uri() ?>/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="<?php echo get_stylesheet_directory_uri() ?>/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="<?php echo get_stylesheet_directory_uri() ?>/favicon/mstile-310x310.png" />
+
+    <title>Edgify</title>
+</head>
+<body>
+    <div>
+    <div class="container">
+        <header class="left"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/logo.png"/></header>
+        <div class="wrapper">
+            <div class="header center"><h1>Training AI Models Directly on Edge Devices</h1></div>
+            <div class="header__sub center"><h2>A paradigm shift in DL and ML</h2></div>
+            <div class="content center">
+                <p>We allow any company, from any industry, to train complete DL and ML models, directly on their own edge devices. Reaching close to perfect accuracy, without the need to transfer any of the data to the cloud.</p>
+            </div>
+            <div class="content__header center"><h3>New Website Coming&nbsp;Soon</h3></div>
+        </div>
+        <div class="edge-1"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/edge-1.svg" width="190" height="190"/></div>
+        <div class="edge-2"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/edge-2.svg" width="300" height="300"/></div>
+       <div class="edge-3"><img src="<?php echo get_stylesheet_directory_uri() ?>/img/edge-3.svg" width="950" height="950"/></div>
+    </div>
+    </div>
+</body>
+</html>
